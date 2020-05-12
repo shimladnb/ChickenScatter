@@ -1,8 +1,8 @@
 {
-	"name" : "GLITCHY PIXELS",
+	"name" : "ChickenScatter",
 	"version" : 1,
 	"creationdate" : 3672029393,
-	"modificationdate" : 3672146698,
+	"modificationdate" : 3672146930,
 	"viewrect" : [ 25.0, 107.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,7 +10,7 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"GLITCHY PIXELS.maxpat" : 			{
+			"Chicken Scatter.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
