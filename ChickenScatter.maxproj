@@ -2,7 +2,7 @@
 	"name" : "ChickenScatter",
 	"version" : 1,
 	"creationdate" : 3672029393,
-	"modificationdate" : 3677412197,
+	"modificationdate" : 3677414710,
 	"viewrect" : [ 1252.0, 158.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -25,14 +25,43 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"AudioSettings.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"media" : 		{
+			"CAMERA2-01-SMOLL.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"glitchSprite.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
+,
+			"CAMERA2-01.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"ConfigureWheel-01.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"ConfigureWheel-01-50px.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+
+		}
+,
+		"code" : 		{
 
 		}
 ,
@@ -68,11 +97,13 @@
 			}
 ,
 			"jit.ndi.receive~.mxo" : 			{
-				"kind" : "object"
+				"kind" : "object",
+				"local" : 1
 			}
 ,
 			"jit.ndi.send~.mxo" : 			{
-				"kind" : "object"
+				"kind" : "object",
+				"local" : 1
 			}
 ,
 			"jit.movie~.mxe64" : 			{
