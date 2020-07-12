@@ -2,8 +2,8 @@
 	"name" : "ChickenScatter",
 	"version" : 1,
 	"creationdate" : 3672029393,
-	"modificationdate" : 3672146930,
-	"viewrect" : [ 25.0, 107.0, 300.0, 500.0 ],
+	"modificationdate" : 3677408131,
+	"viewrect" : [ 1252.0, 158.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -20,6 +20,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"1stSplash.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -32,22 +37,22 @@
 		}
 ,
 		"externals" : 		{
-			"jit.gl.syphonserver.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"jit.movie~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
 			"jit.ndi.receive~.mxe64" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
 ,
 			"jit.gl.spoutreceiver.mxe64" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"jit.gl.syphonserver.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"jit.movie~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
@@ -63,13 +68,11 @@
 			}
 ,
 			"jit.ndi.receive~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
+				"kind" : "object"
 			}
 ,
 			"jit.ndi.send~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
+				"kind" : "object"
 			}
 ,
 			"jit.movie~.mxe64" : 			{
