@@ -2,7 +2,7 @@
 	"name" : "ChickenScatter",
 	"version" : 1,
 	"creationdate" : 3672029393,
-	"modificationdate" : 3677420131,
+	"modificationdate" : 3677591991,
 	"viewrect" : [ 1252.0, 158.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -30,6 +30,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"OSCmessage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -40,21 +45,6 @@
 			}
 ,
 			"ConfigureWheel-01-50px.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"glitchSprite.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"CAMERA2-01.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"ConfigureWheel-01.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -70,6 +60,21 @@
 			}
 ,
 			"DESTRUCTION_TYPE-01.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"glitchSprite.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"CAMERA2-01.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"ConfigureWheel-01.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -112,13 +117,11 @@
 			}
 ,
 			"jit.ndi.receive~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
+				"kind" : "object"
 			}
 ,
 			"jit.ndi.send~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
+				"kind" : "object"
 			}
 ,
 			"jit.movie~.mxe64" : 			{
